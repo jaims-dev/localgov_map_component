@@ -1,0 +1,11 @@
+# Custom library for general purposes.
+localgov_map_component:
+  js:
+    js/localgov_map_component.js: {}
+  css:
+    component:
+      css/localgov_map_component.css: {}
+  dependencies:
+    - core/drupal
+    - core/once
+    - leaflet/leaflet-drupal
